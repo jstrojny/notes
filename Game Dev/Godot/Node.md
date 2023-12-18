@@ -1,0 +1,1 @@
+Nodes are the basic building blocks of a [[Scene|scene]]. Nodes use Signals to communicate with one another. Signals allow nodes to react to events happening to nodes without having to hardwire them. These signals are easy to implement using the [[Observer]] design pattern.

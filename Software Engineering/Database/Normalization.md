@@ -1,0 +1,3 @@
+Normalization is the process of breaking up a database table into multiple smaller tables. This moves redundant information into a single location allowing for easier updates. Normalizing tables also helps to remove inconsistent dependencies or dependencies that don't logically make sense such as a an employee's salary being in a customer's orders table.
+
+The various normalization rules are called normal forms. If a database follows just the first rule it is in [[First Normal Form]]. If it follows the second rule in addition to the first it is in Second Normal Form and so on.

@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62ef5fd853f3e5ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Database/Normalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fda6602e263a217f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Database/Normalization.md",
+                "file": "Software Engineering/Database/Domain Key Normal Form.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Database/Normalization.md",
+                "file": "Software Engineering/Database/Domain Key Normal Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Database/Normalization.md",
+                "file": "Software Engineering/Database/Domain Key Normal Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Database/Normalization.md"
+                "file": "Software Engineering/Database/Domain Key Normal Form.md"
               }
             }
           }
@@ -160,11 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fda6602e263a217f",
+  "active": "951c126656028397",
   "lastOpenFiles": [
-    "Software Engineering/Database/First Normal Form.md",
-    "Software Engineering/Database/Normalization.md",
     "Software Engineering/Database/Domain Key Normal Form.md",
+    "Software Engineering/Database/Normalization.md",
+    "Software Engineering/Database/First Normal Form.md",
     "Software Engineering/Database",
     "2023-12-17.md",
     "Game Dev/Godot/Node.md",

@@ -1,0 +1,1 @@
+Measures are used by dbt's [[Semantic Models|semantic layer]] to aggregate data from an entity. Similar to [[Dimensions|dimensions]] and [[Entities|entities]] they have a name, a description, and an expr that can be used to alias the column. A measure also has an agg value that defines what type of aggregation should be performed such as a sum or percentile calculation.

@@ -4,47 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "b9ed018a0049272a",
+        "id": "cbc9c3a772b2878c",
         "type": "tabs",
         "children": [
           {
-            "id": "62ef5fd853f3e5ff",
+            "id": "fdc2fc6362491ea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Database/Normalization.md",
+                "file": "dbt/Structure.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fda6602e263a217f",
+            "id": "30fef0ab91f0efc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Dev/Godot/GDScript.md",
+                "file": "dbt/Structure.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "240e47c349e6e004",
+            "id": "fbcafa20d0362975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Dev/Godot/Signals.md",
+                "file": "Software Engineering/Data Modeling/Data Granularity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5402de9f6caa0835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Data Modeling/Surrogate Key.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a68e7ac89d1e07c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Data Modeling/Natural Key.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1a950bf7915921b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Database/Primary Key.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e3034c6158c89f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbt/MetricFlow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f259803f3388920e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Palladio Onboarding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -110,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Dev/Godot/Signals.md",
+                "file": "Palladio Onboarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Dev/Godot/Signals.md",
+                "file": "Palladio Onboarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Dev/Godot/Signals.md"
+                "file": "Palladio Onboarding.md"
               }
             }
           }
@@ -172,19 +232,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "240e47c349e6e004",
+  "active": "f259803f3388920e",
   "lastOpenFiles": [
-    "Game Dev/Godot/Scripting.md",
-    "Game Dev/Godot/Signals.md",
-    "Game Dev/Godot/GDScript.md",
-    "Game Dev/Godot/Scene.md",
-    "Game Dev/Godot/Node.md",
-    "Software Engineering/Database/Normalization.md",
-    "Software Engineering/Database/First Normal Form.md",
+    "dbt/Workflows.md",
+    "dbt/MetricFlow.md",
+    "Palladio Onboarding.md",
+    "MLS Meeting Notes.md",
+    "dbt/Measures.md",
+    "dbt/Semantic Models.md",
+    "dbt/Dimensions.md",
+    "dbt/Entities.md",
+    "Software Engineering/Data Modeling/Surrogate Key.md",
+    "Software Engineering/Data Modeling/Natural Key.md",
+    "dbt/Marts.md",
+    "Semantic Layer.md",
+    "Software Engineering/Database/Indexes.md",
+    "Software Engineering/Data Modeling/Dimensional Modeling.md",
+    "Software Engineering/Database/Foreign Key.md",
+    "Software Engineering/Database/Primary Key.md",
+    "Software Engineering/Data Modeling/Data Granularity.md",
+    "Software Engineering/Data Modeling",
+    "2024 Books.md",
+    "dbt/Structure.md",
+    "dbt/Intermediate.md",
+    "dbt/Staging.md",
     "Software Engineering/Database/Domain Key Normal Form.md",
+    "Software Engineering/Database/Normalization.md",
+    "Software Engineering/Database/Common Table Expression.md",
+    "Game Dev/Godot/Signals.md",
+    "dbt",
+    "Game Dev/Godot/Scripting.md",
     "Software Engineering/Database",
-    "2023-12-17.md",
-    "Software Engineering/Patterns/Observer.md",
     "Software Engineering/Patterns",
     "Software Engineering",
     "Game Dev/Godot",

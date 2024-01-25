@@ -1,0 +1,3 @@
+Data granularity, or data grain, describes what values in a table are used to identify unique rows. A table of users and their addresses with unique user ids per row is user id grain but one where the id is not unique would be user address grained. In database terms these grains comprise our primary key for a table.
+
+These values are often used to create a [[Surrogate Key|surrogate key]] in downstream tables.

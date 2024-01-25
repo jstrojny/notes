@@ -1,0 +1,5 @@
+In dbt's [[Semantic Models|semantic modeling]] system entities represent the what of the model. Entities should be thought of as nouns to which some action has happened that we want to quantify. Entities have three pieces: a name, a type, and an expression (expr).
+
+An entity's name is either the column name of the underlying table or it can be an alias with the expr value specifying the column.
+
+The type can be one of four values: primary, unique, foreign, or natural. A primary entity only has one record per row in the underlying table but every row in the data platform. A unique entity has only record per row in the table. It may also have multiple rows in the data warehouse and can be null. A foreign entity can have zero to many records including null values for the same record. A natural entity is a column or combination of columns that can identify unique records. This is similar to a [[Surrogate Key|surrogate key]].

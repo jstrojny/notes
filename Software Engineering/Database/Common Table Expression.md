@@ -1,0 +1,3 @@
+Common Table Expressions (CTEs) provide a way to select a temporary result set from a database. This lets us build complex queries out of simpler CTEs for more manageable logic. Common Table Expressions remove the need to check that a view for some data already exists and by breaking our queries into discrete parts they can be tested for correctness. We can also re-use CTEs across a project; deduplicating effort.
+
+CTEs are began using the `WITH` keyword followed by a name and ended with the `AS` keyword. The name for a CTE, the `CTE_EXPRESSION_NAME` must be unique for each CTE. Common Table Expressions are supported by most modern data warehouses including Postgres, Redshift, and Snowflake.

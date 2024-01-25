@@ -1,0 +1,5 @@
+An index is a value formed from one or more columns in a table. These values then point to a record in the database. Sort of like the index in a book, the entry tells the reader where the page they want with the information they need is located. A table can have multiple indexes, in this case the query planner will select which index is best on a per query basis.
+
+When a query is made the database engine can decide to use the index to speed up the query execution. This is because indexes are generally represented by trees, specifically a B-Tree. By traversing the tree to find our index value, such as in a query with `where index = 2`, we can skip checking records in branches that can not contain our index.
+
+There is a downside to having one or more indexes on a table. Each time the table is updated, such as an INSERT, UPDATE, or DELETE, the index tree(s) also need to be updated. With a large enough table this operation can take significant time. Additionally, because indexes need to be stored separately from their table they also take up additional disk space.

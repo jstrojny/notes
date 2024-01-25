@@ -1,0 +1,1 @@
+MetricFlow is a set of abstractions that powers dbt's Semantic Layer using [[Semantic Models|semantic models]] and their components: [[Entities|entities]], [[Dimensions|dimensions]], and [[Measures|measures]] .

@@ -1,0 +1,1 @@
+A surrogate key is a unique value derived from the data. Usually formed by hashing values that uniquely identify a row, creating a surrogate key is necessary when there is no [[Natural Key|natural key]] in the data.

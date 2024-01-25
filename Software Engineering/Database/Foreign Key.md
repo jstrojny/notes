@@ -1,0 +1,1 @@
+A foreign key is a column in a table that holds values that reference another table's [[Primary Key|primary key]]. this allows developers to build relations between tables while knowing that the data being queried for is complete.

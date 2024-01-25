@@ -1,0 +1,5 @@
+This is where source-conformed data lands and is initially ingested. Subdirectories should represent where the data is coming from *not* what business unit it belongs to or what tool is loading it. The files within these subdirectories should follow the naming format `stg_[source]__[entity]s.sql`. This shows what layer the file exists in, what the actual source is, and the entities, plural because tables rarely only have one thing in them, in a clear way with the extra underscore keeping entity and source unambiguous.
+
+Staging is intended for modeling the base data and as such operations such as grouping or joining should generally be avoided. Keeping the widest base of available data, in a cleaned state, means we can have flexibility later when applying those operations.
+
+For a similar reason staging level models are almost always views, storing them as a table doesn't make sense as they're not intended for the mart consumer. A view also provides always up to date information as downstream models will re-run the query.
